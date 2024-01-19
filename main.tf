@@ -78,7 +78,7 @@ resource "azurerm_linux_virtual_machine" "vm01" {
 
   size           = "Standard_B1s"
   admin_username = "usercloud"
-  admin_password = "efrei@password777"
+  admin_password = ""
 
   admin_ssh_key {
     username   = "usercloud"
